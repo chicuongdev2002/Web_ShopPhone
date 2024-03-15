@@ -1,0 +1,82 @@
+.form-tt {
+  /* width: 400px; */
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 37px;
+  text-align: left;
+  }
+  .form-tt h2 {
+  font-size: 30px;
+  color: rgb(8, 8, 8);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 30px;
+  }
+
+  .form-tt input[type=text], .form-tt input[type=password] {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  color: rgb(9, 9, 9);
+  line-height: 1.2;
+  display: block;
+  width: calc(100% - 10px);
+  height: 45px;
+  background: 0 0;
+  padding: 10px 0;
+  border-bottom: 2px solid rgba(255,255,255,.24)!important;
+  border: 0;
+  outline: 0;
+  }
+  .checkbox {
+  display: block;
+  }
+  .form-tt input[type=submit] {
+  font-size: 16px;
+  color: rgb(249, 249, 249);
+  line-height: 1.2;
+  padding: 0 20px;
+  min-width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  background: rgb(15, 177, 4);
+  position: relative;
+  z-index: 1;
+  border: 0;
+  outline: 0;
+  display: block;
+  margin: 30px auto;
+  }
+  #checkbox {
+  display: inline-block;
+  margin-right: 10px;
+  }
+  .checkbox-text {
+  color: rgb(9, 9, 9);
+  }
+  .psw-text {
+  color: rgb(10, 9, 9);
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .button:hover {background-color: #3e8e41}
+
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
